@@ -1,0 +1,27 @@
+{
+  "name": "tamagotchi-desktop",
+  "version": "1.0.0",
+  "description": "A modern Tamagotchi desktop app",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "electron:dev": "electron ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.12.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "electron": "^24.3.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5"
+  }
+} 
