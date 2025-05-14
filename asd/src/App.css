@@ -1,0 +1,20 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  -webkit-app-region: drag;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+/* Make buttons and interactive elements not draggable */
+button, 
+[role="button"],
+.no-drag {
+  -webkit-app-region: no-drag;
+} 
